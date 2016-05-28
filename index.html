@@ -1,23 +1,27 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+	<head>
 
-<div class="home">
+	<link rel="stylesheet" type="text/css" href="mystyle.css"\>
+	<title>1st website</title>
+</head>
+<body>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<a href="http://www.nu.nl/"><div id="head1">nu</div></a>
+<a href="http://www.nu.nl/economie"><div id="head2" >zakelijk</div></a>
+<a href="http://www.nu.nl/tech"><div id="head3">tech</div></a>
+<a href="http://www.nuwerk.nl/"><div id="head4">werk</div></a>
+<a href="http://www.nu.nl/geldzaken"><div id="head5">geld</div></a>
+<p></p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<h1>ik ben een nieuwssite</h1>
+<p>hier wordt van alles verteld</p>
 
-</div>
+<h2>dit is het gedeelte voor onzin over celebs</h2>
+<p>oh nee justin heeft een scheet gelaten!!!</p>
+
+</body>
+</html>
+
