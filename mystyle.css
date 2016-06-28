@@ -1,56 +1,265 @@
 
-div{
+.cat{
+	background-image:  url("weather.png");
+}
+.garden{
+	background-image: url("garden2.jpg");
+	background-size:   1920px 1080px; 
 	
-	display:inline-block;
-	width: 100px;
-	height:25px;
-	border: 0.1px solid black;
+}
+
+#toggleButton{
+	background-image: url("catgarden.jpg");
+	display:block;
+	height:167px;
+	width:236px;
+	
+	border-radius:2px;
+	
 	text-align:center;
-	color:black;	
-	font-family:Verdana;
+	border-radius:10px;
+	margin:auto;
 	
-	}
-#head1:hover{
-	border-bottom: 3px solid black;
-	text-decoration:underline;
-	border-radius:10px
-}
-#head2:hover{
-	border-bottom: 3px solid blue;
-	text-decoration:underline;
-}
-
-#head3:hover{
-	border-bottom: 3px solid red;
-	text-decoration:underline;
-}
-#head4:hover{
-	border-bottom: 3px solid purple;
-	text-decoration:underline;
-}
-
-#head5:hover{
-	border-bottom: 3px solid green;
-	text-decoration:underline;
-}
-#head1{
-		margin-left:30%;
-	
-}
-img{
-	height:15px;
-	margin:auto ;
-	align:center;
 }
 h1{
-	color:#ffffff;
-	background-image: url('https://github.com/rttforge/rttforge.github.io/blob/master/009%20(2).JPG?raw=true');
-	background-position: center top;
-	background-size: cover;
-	padding: 500px 0;
-	margin: 30px;
-	text-shadow: 0 1px #000000;
-	font-family: 'Trebuchet MS', 'Helvetica';
 	text-align:center;
+	
+	
 }
+
+h2{
+	text-align:center;
+	
+	
+}
+
+.photoArray{
+	
+	width:1150;
+	height:300px;
+	margin:auto;
+	
+}
+.photoArray1{
+	
+	width:1150;
+	height:300px;
+	margin:auto;
+	
+}
+
+
+.container {
+  width: 300px;
+  
+  
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  left:10%;
+  border-radius:10px;
+}
+.containerA {
+  width: 300px;
+  
+  
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  left:10%;
+  border-radius:10px;
+}
+
+.container > * {
+	display: none;
+}
+.containerA > * {
+	display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+  border-radius:10px;
+  margin-top:10px;
+}
+.containerA img {
+  width: 100%;
+  height: auto;
+  border-radius:10px;
+  margin-top:10px;
+}
+.container1 {
+  width: 300px;
+  
+  
+  
+  position: relative;
+  left:10%;
+  border-radius:10px;
+}
+.container1 {
+  width: 300px; 
+  position: relative;
+  left:10%;
+  border-radius:10px;
+}
+
+.container1A {
+  width: 300px; 
+  position: relative;
+  left:10%;
+  border-radius:10px;
+}
+.container1 > * {
+	display: none;
+}
+
+.container1A > * {
+	display: none;
+}
+
+.container1 img {
+  width: 100%;
+  height: auto;
+  border-radius:10px;
+  margin:10px;
+  
+}
+
+.container1A img {
+  width: 100%;
+  height: auto;
+  border-radius:10px;
+  margin:10px;
+  
+}
+.container2 {
+  width: 300px; 
+  margin-left: 10px;
+  position: relative;
+  left:10%;
+  border-radius:10px;
+}
+
+.container2A {
+  width: 300px; 
+  margin-left: 10px;
+  position: relative;
+  left:10%;
+  border-radius:10px;
+}
+
+.container2 > * {
+	display: none;
+}
+.container2A > * {
+	display: none;
+}
+.container2 img {
+  width: 100%;
+  height: auto;
+  border-radius:10px;
+  margin:10px;
+  
+}
+.container2A img {
+  width: 100%;
+  height: auto;
+  border-radius:10px;
+  margin:10px;
+  
+}
+.buttonArray{
+	margin:auto;
+	width: 750;
+	
+	
+}
+
+
+.next {
+float:left;
+  
+  
+}
+
+.prev {
+
+  
+  float:left;
+  
+  
+}
+
+.next1{
+	float:left;
+}
+
+.prev1{
+	float:left;
+	
+	margin-left:188px;
+}
+
+.next2{
+	float:right;
+	
+}
+
+.prev2{
+	float: right;
+	
+}
+
+.buttonArray1{
+	margin:auto;
+	width: 750;
+	
+	
+}
+
+
+.nextA {
+float:left;
+  
+  
+}
+
+.prevA {
+
+  
+  float:left;
+  
+  
+}
+
+.next1A{
+	float:left;
+}
+
+.prev1A{
+	float:left;
+	
+	margin-left:188px;
+}
+
+.next2A{
+	float:right;
+	
+}
+
+.prev2A{
+	float: right;
+	
+}
+.cA{
+	text-align: center;
+	display: inline-block;
+	height:300px;
+	width:300px;
+	background-color:white;
+	margin-top: 50px;
+}
+
+
 
