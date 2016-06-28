@@ -1,27 +1,90 @@
-<!DOCTYPE html>
 <html>
-	<head>
 
-	<link rel="stylesheet" type="text/css" href="mystyle.css"\>
-	<title>1st website</title>
-</head>
-<body>
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='mystyle.css' rel='stylesheet'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  
+  <body class="cat">
+  
+	<h1>Welcome to my Garden and Cat site!</h1>
 
+	<a id="toggleButton" href="#"></a>
+		
+   <h2>please click on the button above to choose between the garden or  the cats</h2>
+ 
+	
+	<div class="photoArray">	
+		<div class="container" style=" float: left;">
+			<img src="mitten1.jpg" />
+			<img src="mitten2.jpg"/>
+			<img src="mitten3.jpg"/>
+			
+		</div>
+		<div class="container1" style=" float: left;">
+			<img src="sok1.jpg" />
+			<img src="sok2.jpg"/>
+			<img src="sok3.jpg"/>
+			
+		</div>
+		
+		<div class="container2" style=" float: left;">
+			<img src="muts1.jpg" />
+			<img src="muts2.jpg"/>
+			<img src="muts3.jpg"/>
+			
+		</div>
+	</div>
+	
+	<div class="photoArray1" style="display: none">	
+		<div class="containerA" style=" float: left;">
+			<img src="tuin1.jpg" />
+			<img src="tuin2.jpg"/>
+			<img src="tuin3.jpg"/>
+			
+		</div>
+		<div class="container1A" style=" float: left;">
+			<img src="moestuin1.jpg" />
+			<img src="moestuin2.jpg"/>
+			<img src="moestuin3.jpg"/>
+			
+		</div>
+		
+		<div class="container2A" style=" float: left;">
+			<img src="kas1.jpg" />
+			<img src="kas2.jpg"/>
+			<img src="kas3.jpg"/>
+			<img id="tuin" src="tuin1.jpg"/>
+		</div>
+	</div>
 
-<a href="http://www.nu.nl/"><div id="head1">nu</div></a>
-<a href="http://www.nu.nl/economie"><div id="head2" >zakelijk</div></a>
-<a href="http://www.nu.nl/tech"><div id="head3">tech</div></a>
-<a href="http://www.nuwerk.nl/"><div id="head4">werk</div></a>
-<a href="http://www.nu.nl/geldzaken"><div id="head5">geld</div></a>
-<p></p>
+	<div class="buttonArray">
+		<button class="prev";>Previous</button>
+		<button class="next">Next</button>
+		<button class="prev1";>Previous</button>
+		<button class="next1">Next</button>
+		<button class="next2">Next</button>
+		<button class="prev2";>Previous</button>
+		
+		
+	</div>
+	
+	<div class="buttonArray1" style="display: none">
+		<button class="prevA";>Previous</button>
+		<button class="nextA">Next</button>
+		<button class="prev1A";>Previous</button>
+		<button class="next1A">Next</button>
+		<button class="next2A">Next</button>
+		<button class="prev2A";>Previous</button>
+		
+		
+	</div>
+			
+	
 
-
-<h1>ik ben een nieuwssite</h1>
-<p>hier wordt van alles verteld</p>
-
-<h2>dit is het gedeelte voor onzin over celebs</h2>
-<p>oh nee justin heeft een scheet gelaten!!!</p>
-
-</body>
+  </body>
+  
 </html>
-
