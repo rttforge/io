@@ -1,6 +1,7 @@
 
 .cat{
 	background-image:  url("cat.jpg");
+	background-size:   1920px 900px;
 }
 .garden{
 	background-image: url("garden2.jpg");
